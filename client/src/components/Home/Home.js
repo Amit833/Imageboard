@@ -11,6 +11,7 @@ const Home = () => {
   const dispatch = useDispatch();
   //const classes = useStyles();
 
+  // render all posts I use useEffect
   useEffect(() => {
     dispatch(getPosts());
   }, [dispatch]);
